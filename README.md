@@ -76,6 +76,7 @@ If the project is already built, run:
 CalculatorApp/CalculatorApp/bin/Debug/CalculatorApp.exe
 ```
 
+---
 
 ## 🎯 Learning Outcomes
 
