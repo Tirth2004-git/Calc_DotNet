@@ -1,53 +1,131 @@
-# Calc_DotNet
+# 🧮 Calc_DotNet
 
-A simple desktop calculator built with C# and Windows Forms (.NET Framework 4.7.2).
+A simple and user-friendly desktop calculator built using **C#** and **Windows Forms (.NET Framework 4.7.2)**.
 
-## Project Overview
+---
 
-This project is a basic calculator application with a graphical interface.
-It supports the main arithmetic operations and includes division-by-zero protection.
+## 📌 Project Overview
 
-## Features
+**Calc_DotNet** is a lightweight calculator application designed with a graphical user interface. It performs basic arithmetic operations and ensures safe execution with features like division-by-zero handling.
 
-- Number input (0-9)
-- Arithmetic operations: `+`, `-`, `*`, `/`
-- Equals (`=`) to compute results
-- Clear (`C`) button to reset input
-- Message alert when attempting division by zero
+This project is ideal for beginners learning **C#**, **WinForms**, and event-driven programming.
 
-## Tech Stack
+---
 
-- Language: C#
-- UI Framework: Windows Forms
-- Target Framework: .NET Framework 4.7.2
-- IDE: Visual Studio (recommended)
+## ✨ Features
 
-## Project Structure
+* 🔢 Numeric input (0–9)
+* ➕ Addition
+* ➖ Subtraction
+* ✖️ Multiplication
+* ➗ Division
+* 🟰 Equals (`=`) for result calculation
+* 🧹 Clear (`C`) button to reset inputs
+* ⚠️ Error alert for division by zero
 
-```text
+---
+
+## 🛠️ Tech Stack
+
+| Component    | Technology                  |
+| ------------ | --------------------------- |
+| Language     | C#                          |
+| UI Framework | Windows Forms (WinForms)    |
+| Framework    | .NET Framework 4.7.2        |
+| IDE          | Visual Studio (Recommended) |
+
+---
+
+## 📂 Project Structure
+
+```
 Calc_DotNet-main/
-	README.md
-	CalculatorApp/
-		CalculatorApp.sln
-		CalculatorApp/
-			Program.cs
-			Form1.cs
-			Form1.Designer.cs
-			CalculatorApp.csproj
+│── README.md
+│
+└── CalculatorApp/
+    │── CalculatorApp.sln
+    │
+    └── CalculatorApp/
+        │── Program.cs
+        │── Form1.cs
+        │── Form1.Designer.cs
+        │── CalculatorApp.csproj
 ```
 
-## How To Run
+---
 
-### Option 1: Visual Studio (Recommended)
+## 🚀 How to Run
 
-1. Open `CalculatorApp/CalculatorApp.sln` in Visual Studio.
-2. Build the solution.
-3. Press `F5` to run.
+### ▶️ Option 1: Using Visual Studio (Recommended)
 
-### Option 2: Run Existing Debug Build
+1. Open:
 
-If already built, run:
+   ```
+   CalculatorApp/CalculatorApp.sln
+   ```
+2. Build the solution (`Ctrl + Shift + B`)
+3. Run the project (`F5`)
+
+---
+
+### ⚡ Option 2: Run Executable (Pre-built)
+
+If the project is already built, run:
 
 ```powershell
 CalculatorApp/CalculatorApp/bin/Debug/CalculatorApp.exe
 ```
+
+---
+
+## 📸 Screenshots (Optional)
+
+> Add screenshots here to make your project more attractive
+> Example:
+>
+> ```
+> ![Calculator UI](screenshot.png)
+> ```
+
+---
+
+## 🎯 Learning Outcomes
+
+* Understanding WinForms UI design
+* Handling button click events
+* Managing application state
+* Implementing basic arithmetic logic
+* Error handling (division by zero)
+
+---
+
+## 🔮 Future Improvements
+
+* 🧠 Add scientific calculator functions
+* 🎨 Improve UI/UX design
+* 🌙 Dark mode support
+* ⌨️ Keyboard input support
+* 📱 Port to WPF or .NET Core
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **[Oza Tirth]**
+
+---
+
+⭐ If you like this project, don’t forget to star the repository!
